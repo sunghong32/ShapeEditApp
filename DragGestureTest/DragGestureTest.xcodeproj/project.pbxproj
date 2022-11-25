@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6597169A292CB42600C9CC0E /* DragGestureTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65971699292CB42600C9CC0E /* DragGestureTestApp.swift */; };
+		6597169C292CB42600C9CC0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597169B292CB42600C9CC0E /* ContentView.swift */; };
+		6597169E292CB42600C9CC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6597169D292CB42600C9CC0E /* Assets.xcassets */; };
+		659716A1292CB42600C9CC0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659716A0292CB42600C9CC0E /* Preview Assets.xcassets */; };
+		659716A8292DED5D00C9CC0E /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716A7292DED5D00C9CC0E /* ContentView2.swift */; };
+		659716AD292DF44300C9CC0E /* DraggableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716AC292DF44300C9CC0E /* DraggableModifier.swift */; };
+		659716AF292DF76700C9CC0E /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716AE292DF76700C9CC0E /* Shapes.swift */; };
+		659716B1292DFAE000C9CC0E /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716B0292DFAE000C9CC0E /* Triangle.swift */; };
+		659716B3292E39FE00C9CC0E /* ScalableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716B2292E39FD00C9CC0E /* ScalableModifier.swift */; };
+		659716B5292EE80A00C9CC0E /* DraggableAndScalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716B4292EE80A00C9CC0E /* DraggableAndScalable.swift */; };
+		659716B8292EEE5500C9CC0E /* TwoFingerGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716B7292EEE5500C9CC0E /* TwoFingerGestureView.swift */; };
+		659716BA292F028700C9CC0E /* OffsetOpacityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659716B9292F028700C9CC0E /* OffsetOpacityModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65971696292CB42600C9CC0E /* DragGestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65971699292CB42600C9CC0E /* DragGestureTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTestApp.swift; sourceTree = "<group>"; };
+		6597169B292CB42600C9CC0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6597169D292CB42600C9CC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		659716A0292CB42600C9CC0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		659716A7292DED5D00C9CC0E /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		659716AC292DF44300C9CC0E /* DraggableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableModifier.swift; sourceTree = "<group>"; };
+		659716AE292DF76700C9CC0E /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		659716B0292DFAE000C9CC0E /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		659716B2292E39FD00C9CC0E /* ScalableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalableModifier.swift; sourceTree = "<group>"; };
+		659716B4292EE80A00C9CC0E /* DraggableAndScalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableAndScalable.swift; sourceTree = "<group>"; };
+		659716B7292EEE5500C9CC0E /* TwoFingerGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFingerGestureView.swift; sourceTree = "<group>"; };
+		659716B9292F028700C9CC0E /* OffsetOpacityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetOpacityModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65971693292CB42600C9CC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6597168D292CB42600C9CC0E = {
+			isa = PBXGroup;
+			children = (
+				65971698292CB42600C9CC0E /* DragGestureTest */,
+				65971697292CB42600C9CC0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65971697292CB42600C9CC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65971696292CB42600C9CC0E /* DragGestureTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65971698292CB42600C9CC0E /* DragGestureTest */ = {
+			isa = PBXGroup;
+			children = (
+				65971699292CB42600C9CC0E /* DragGestureTestApp.swift */,
+				659716A9292DF3FD00C9CC0E /* Scenes */,
+				6597169D292CB42600C9CC0E /* Assets.xcassets */,
+				6597169F292CB42600C9CC0E /* Preview Content */,
+			);
+			path = DragGestureTest;
+			sourceTree = "<group>";
+		};
+		6597169F292CB42600C9CC0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				659716A0292CB42600C9CC0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		659716A9292DF3FD00C9CC0E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				659716B6292EEE3400C9CC0E /* Gestures */,
+				659716AB292DF41C00C9CC0E /* Modifiers */,
+				659716AA292DF41100C9CC0E /* Canvas */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		659716AA292DF41100C9CC0E /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				6597169B292CB42600C9CC0E /* ContentView.swift */,
+				659716A7292DED5D00C9CC0E /* ContentView2.swift */,
+				659716B0292DFAE000C9CC0E /* Triangle.swift */,
+				659716AE292DF76700C9CC0E /* Shapes.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		659716AB292DF41C00C9CC0E /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				659716AC292DF44300C9CC0E /* DraggableModifier.swift */,
+				659716B2292E39FD00C9CC0E /* ScalableModifier.swift */,
+				659716B4292EE80A00C9CC0E /* DraggableAndScalable.swift */,
+				659716B9292F028700C9CC0E /* OffsetOpacityModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		659716B6292EEE3400C9CC0E /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				659716B7292EEE5500C9CC0E /* TwoFingerGestureView.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65971695292CB42600C9CC0E /* DragGestureTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659716A4292CB42600C9CC0E /* Build configuration list for PBXNativeTarget "DragGestureTest" */;
+			buildPhases = (
+				65971692292CB42600C9CC0E /* Sources */,
+				65971693292CB42600C9CC0E /* Frameworks */,
+				65971694292CB42600C9CC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragGestureTest;
+			productName = DragGestureTest;
+			productReference = 65971696292CB42600C9CC0E /* DragGestureTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6597168E292CB42600C9CC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					65971695292CB42600C9CC0E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 65971691292CB42600C9CC0E /* Build configuration list for PBXProject "DragGestureTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6597168D292CB42600C9CC0E;
+			productRefGroup = 65971697292CB42600C9CC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65971695292CB42600C9CC0E /* DragGestureTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65971694292CB42600C9CC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659716A1292CB42600C9CC0E /* Preview Assets.xcassets in Resources */,
+				6597169E292CB42600C9CC0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65971692292CB42600C9CC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659716B5292EE80A00C9CC0E /* DraggableAndScalable.swift in Sources */,
+				659716AF292DF76700C9CC0E /* Shapes.swift in Sources */,
+				659716B8292EEE5500C9CC0E /* TwoFingerGestureView.swift in Sources */,
+				659716BA292F028700C9CC0E /* OffsetOpacityModifier.swift in Sources */,
+				659716A8292DED5D00C9CC0E /* ContentView2.swift in Sources */,
+				659716B3292E39FE00C9CC0E /* ScalableModifier.swift in Sources */,
+				6597169C292CB42600C9CC0E /* ContentView.swift in Sources */,
+				659716B1292DFAE000C9CC0E /* Triangle.swift in Sources */,
+				659716AD292DF44300C9CC0E /* DraggableModifier.swift in Sources */,
+				6597169A292CB42600C9CC0E /* DragGestureTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		659716A2292CB42600C9CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		659716A3292CB42600C9CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		659716A5292CB42600C9CC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragGestureTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 267W876FYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunghongmin.DragGestureTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		659716A6292CB42600C9CC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DragGestureTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 267W876FYR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunghongmin.DragGestureTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65971691292CB42600C9CC0E /* Build configuration list for PBXProject "DragGestureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659716A2292CB42600C9CC0E /* Debug */,
+				659716A3292CB42600C9CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659716A4292CB42600C9CC0E /* Build configuration list for PBXNativeTarget "DragGestureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659716A5292CB42600C9CC0E /* Debug */,
+				659716A6292CB42600C9CC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6597168E292CB42600C9CC0E /* Project object */;
+}
